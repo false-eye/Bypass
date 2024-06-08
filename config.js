@@ -6,10 +6,8 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS;
-if (!ownervb) {
-    throw new Error("OWNERS env is not set");
-}
+const ownervb = process.env.OWNERS || "919539901834;false eye;918590717599;9ine.x3"
+
 
 const ownerlist = ownervb.split(';');
 
@@ -27,7 +25,7 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 global.mods = ['919539901834']
 global.prems = ['919539901834']
-global.allowed = ['919539901833']
+global.allowed = ['919539901834']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -73,15 +71,15 @@ global.APIKeys = {
 // Sticker WM
 global.botname = process.env.BOTNAME
 global.premium = 'true'
-global.packname = '9ine.x3'
+global.packname = 'im a ra c/p ist'
 global.author = '@false_eye'
-global.menuvid = 'https://telegra.ph/file/3bc3e04fdf6ce3143aedc.mp4'
+global.menuvid = 'https://i.imgur.com/AjDzGgG.mp4'
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/false_eye\n'
 global.dygp = 'https://t.me/sarca_stics'
 global.fgsc = 'https://github.com/false-eye'
 global.fgyt = 'https://t.me/false_eye'
-global.fgpyp = 'https://t.me/false_eye'
-global.fglog = 'https://telegra.ph/file/aee317218a9ec540e544c.jpg'
+global.fgpyp = 'https://instagram.com/false_eye'
+global.fglog = 'https://imgur.com/a/ATAJrny.jpeg'
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
