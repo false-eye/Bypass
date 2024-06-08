@@ -3,8 +3,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   let name = m.pushName || conn.getName(m.sender)
   var vn = 'https://cdn.jsdelivr.net/gh/false-eye/GURU-BOT@main/Assets/mp3/Alive.mp3'
   let url = 'https://t.me/sarca_stics'
-  let murl = 'https://telegra.ph/file/d062f39327b707e27ea91.mp4'
-  let img = 'https://telegra.ph/file/81557b0cd9531411346f3.jpg'
+  let murl = 'https://i.imgur.com/4WD4MVM.mp4'
+  let img = 'https://imgur.com/wADXTL5.jpg'
   let con = {
     key: {
       fromMe: false,
@@ -30,7 +30,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: 'I AM ALIVE NIGGA',
+        title: 'I AM ALIVE',
         body: '𝟫𝗂𝗇𝖾.𝗑𝟥',
         thumbnailUrl: img,
         sourceUrl: 'https://instagram.com/false_eye',
