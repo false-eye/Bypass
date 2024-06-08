@@ -1,7 +1,7 @@
 import displayLoadingScreen from '../lib/loading.js'
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-  let pp = 'https://telegra.ph/file/35a8070434cf5dfaeed28.jpg'
+  let pp = 'https://imgur.com/VswZuuz.jpg'
   await displayLoadingScreen(conn, m.chat)
   let _muptime
   if (process.send) {
@@ -31,7 +31,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
         thumbnailUrl: pp,
         sourceUrl: 'https://t.me/sarca_stics',
         mediaType: 1,
-        renderLargerThumbnail: false,
+        renderLargerThumbnail: true,
       },
     },
   })
