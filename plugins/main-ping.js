@@ -2,7 +2,7 @@ import { exec } from 'child_process'
 import speed from 'performance-now'
 
 let handler = async (m, { conn }) => {
-  let thumbnail = 'https://telegra.ph/file/95c86438f243c0a9847b4.jpg'
+  let thumbnail = 'https://imgur.com/wADXTL5.jpg'
   let fgg = {
     key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' },
     message: {
