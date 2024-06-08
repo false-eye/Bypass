@@ -575,7 +575,7 @@ ${readMore}
       mentionedJid: [m.sender],
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363178281296360@newsletter',
+        newsletterJid: 'https://instagram.com/false_eye',
         newsletterName: 'Click Here or u Gay',
         serverMessageId: -1,
       },
