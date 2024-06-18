@@ -71,11 +71,11 @@ global.APIKeys = {
 // Sticker WM
 global.botname = process.env.BOTNAME
 global.premium = 'true'
-global.packname = 'im a ra c/p ist'
-global.author = '@false_eye'
+global.packname = process.env.SNAME
+global.author = process.env.ANAME
 global.menuvid = 'https://telegra.ph/file/d062f39327b707e27ea91.mp4'
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/false_eye\n'
-global.dygp = 'https://t.me/sarca_stics'
+global.dygp = 'https://wa.me/919539901834?text=HEY.....%F0%9F%8D%B7%E2%9C%A8%EF%B8%8F'
 global.fgsc = 'https://github.com/false-eye'
 global.fgyt = 'https://t.me/false_eye'
 global.fgpyp = 'https://instagram.com/false_eye'
@@ -84,7 +84,7 @@ global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'
-global.dmoji = '🤭'
+global.dmoji = '💚'
 global.done = '✅'
 global.error = '❌'
 global.xmoji = '🔥'
